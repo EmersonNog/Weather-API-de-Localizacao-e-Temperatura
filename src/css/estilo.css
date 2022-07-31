@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #142433;
+}
+
+.dados {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    height: 400px;
+    width: 300px;
+    margin: 60px;
+    background-image: url(../assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 132, 255, 0.76) 0px 22px 70px 10px;
+    transform: transition 0.3s;
+}
+
+.dados:hover {
+    box-shadow: rgba(0, 132, 255, 0.96) 0px 22px 70px 10px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+#cidade {
+    margin: 40px 0px 0px 0px;
+    font-size: 30px;
+    font-family: 'Outfit', sans-serif;
+    color: #ddd;
+}
+
+#data {
+    margin: 0px 0px 120px 0px;
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+}
+
+#temperatura {
+    font-size: 40px;
+    font-family: 'Outfit', sans-serif;
+}
+
+footer {
+    color: rgb(204, 181, 181);
+    font-size: 13px;
+}
